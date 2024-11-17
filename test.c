@@ -20,7 +20,7 @@ int formulaElsaHPTotal(int ELSA_BASE_HP, float hpMultiplier) {
     int elsaHP = (int)(ELSA_BASE_HP * hpMultiplier);
     return elsaHP;
 }
-int formulaElsaDamageDasar(int turnCount,int baseDamage, float damageMultiplier){
+int formulaElsaDamageDasar(int turnCount,int baseDamage, float damageMultiplier){1
     int damage = (int)((baseDamage + (turnCount * 5)) * damageMultiplier);
     return damage;
 
